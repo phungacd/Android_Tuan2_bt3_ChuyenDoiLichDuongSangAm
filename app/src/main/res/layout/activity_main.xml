@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:gravity="center_horizontal"
+        android:text="Chuyển đổi lịch"
+        android:textColor="#FF5722"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm Dương Lịch"
+            android:textColor="#3F51B5"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtDL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnxem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="Xem năm âm lịch "
+        android:textColorHighlight="#03A9F4" />
+
+    <TextView
+        android:id="@+id/viewAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Năm Âm Lịch"
+        android:textColor="#8BC34A"
+        android:textSize="24sp"></TextView>
+
+
+</LinearLayout>
